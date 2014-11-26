@@ -224,6 +224,7 @@ namespace VirtualPiano
                     {
                     }
                     break;
+                    
                 default:
                     break;
             }
@@ -236,20 +237,20 @@ namespace VirtualPiano
             soltarTecla(tecla);
             if (soltarTecla(tecla))
             {
-                this.btnc1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnd1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btne1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnf1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btng1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btna1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnb1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnc2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnd2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btne2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnf2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btng2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btna2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-                this.btnb2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnc1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnd1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btne1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnf1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btng1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btna1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnb1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnc2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnd2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btne2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btng2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btna2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btnb2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             }
             else
             {
