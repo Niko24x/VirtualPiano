@@ -274,6 +274,7 @@ namespace VirtualPiano
             if (tecla == teclaPresionada)
             {
                 teclaPresionado = false;
+                playerc.Stop();
                 return true;
             }
             else
