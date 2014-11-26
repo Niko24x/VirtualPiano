@@ -273,7 +273,7 @@
             this.Controls.Add(this.btnd1);
             this.Controls.Add(this.btnc1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Virtual Piano";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.ResumeLayout(false);
