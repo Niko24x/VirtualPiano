@@ -29,6 +29,16 @@ namespace VirtualPiano
         System.Media.SoundPlayer playerg2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\g.wav");
         System.Media.SoundPlayer playera2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\a.wav");
         System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+        System.Media.SoundPlayer playercs = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac3\Cortados\c#.wav");
+        System.Media.SoundPlayer playerds = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac3\Cortados\d#.wav");
+        System.Media.SoundPlayer playerfs = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac3\Cortados\F#.wav");
+        System.Media.SoundPlayer playergs = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac3\Cortados\g#.wav");
+        System.Media.SoundPlayer playeras = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac3\Cortados\a#.wav");
+        System.Media.SoundPlayer playercs2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\c#.wav");
+        System.Media.SoundPlayer playerds2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\d#.wav");
+        System.Media.SoundPlayer playerfs2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\F#.wav");
+        System.Media.SoundPlayer playergs2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\g#.wav");
+        System.Media.SoundPlayer playeras2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\a#.wav");
         public Form1()
         {
             InitializeComponent();
@@ -229,7 +239,106 @@ namespace VirtualPiano
                     {
                         this.btncs.BackColor = System.Drawing.Color.Cyan;
                         //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
-                        playerb2.Play();
+                        playercs.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "D2":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btnds.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playerds.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "D4":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btnfs.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playerfs.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "D5":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btngs.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playergs.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "D6":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btnas.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playeras.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "D8":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btncs2.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playercs2.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "D9":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btnds2.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playerds2.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "OemMinus":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btnfs2.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playerfs2.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "Oemplus":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btngs2.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playergs2.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
+                case "Back":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btnas2.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playeras2.Play();
                     }
                     else
                     {
@@ -261,6 +370,16 @@ namespace VirtualPiano
                 this.btng2.BackColor = System.Drawing.SystemColors.ControlLightLight;
                 this.btna2.BackColor = System.Drawing.SystemColors.ControlLightLight;
                 this.btnb2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+                this.btncs.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnds.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnfs.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btngs.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnas.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btncs2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnds2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnfs2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btngs2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+                this.btnas2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             }
             else
             {
