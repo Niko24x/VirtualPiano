@@ -1,0 +1,8 @@
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\obj\x86\Debug\VirtualPiano.csprojResolveAssemblyReference.cache
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\obj\x86\Debug\VirtualPiano.Form1.resources
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\obj\x86\Debug\VirtualPiano.Properties.Resources.resources
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\obj\x86\Debug\VirtualPiano.csproj.GenerateResource.Cache
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\bin\Debug\VirtualPiano.exe
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\bin\Debug\VirtualPiano.pdb
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\obj\x86\Debug\VirtualPiano.exe
+C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\obj\x86\Debug\VirtualPiano.pdb

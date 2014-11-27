@@ -224,7 +224,17 @@ namespace VirtualPiano
                     {
                     }
                     break;
-                    
+                case "D1":
+                    if (teclaConfirmado(tecla))
+                    {
+                        this.btncs.BackColor = System.Drawing.Color.Cyan;
+                        //System.Media.SoundPlayer playerb2 = new System.Media.SoundPlayer(@"C:\Users\PeterNíkolas\Documents\Visual Studio 2010\Projects\VirtualPiano\VirtualPiano\media\octavac4\Cortados\b.wav");
+                        playerb2.Play();
+                    }
+                    else
+                    {
+                    }
+                    break;
                 default:
                     break;
             }
